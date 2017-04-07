@@ -10,7 +10,8 @@ class fibonacci{
         System.out.print("Input : \n");
         String data = input.nextLine();
         deret = Integer.parseInt(data);
-        System.out.print("Output : \n");
+	System.out.println;
+        System.out.print("Jumlah : \n");
 		
         for(int i=0;i<deret;i++){
             System.out.print(bil[i]+" ");
