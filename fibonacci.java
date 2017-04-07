@@ -7,10 +7,10 @@ class fibonacci{
         int deret;
         
         Scanner input = new Scanner (System.in);
-        System.out.print("Input : ");
+        System.out.print("Input : \n");
         String data = input.nextLine();
         deret = Integer.parseInt(data);
-        System.out.print("Output : ");
+        System.out.print("Output : \n");
 		
         for(int i=0;i<deret;i++){
             System.out.print(bil[i]+" ");
